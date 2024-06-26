@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+body{
+    background-color: #ecf39e;
+    color: #132a13;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Playwrite NG Modern", cursive;
+    color: #4f772d;
+}
+
+h3{
+    color: #31572c;
+}
+
+button{
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #132a13;
+    color: #ecf39e;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s, color 0.3s;
+    width: 120px;
+
+}
+
+button:hover{
+    background-color: #4f772d;
+    color: #132a13;
+    font-weight: bold;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
